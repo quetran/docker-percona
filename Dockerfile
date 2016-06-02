@@ -7,7 +7,7 @@ ENV DB_USER=admin \
 	REPLICATION_SLAVE=**False** \
 	REPLICATION_USER=replica \
 	REPLICATION_PASS=replica \
-	REPLICATION_MASTER_NAME=DB \
+	REPLICATION_MASTER_NAME=masterdb \
 	EXTRA_OPTS=
 
 #Percona with tools
